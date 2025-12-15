@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./index.css";
-import profileImage from "./assets/image.jpg"; // ✅ Correct way to import an image
+import profileImage from "./assets/image.jpeg"; // ✅ Correct way to import an image
 
 export default function DeepakWadhwaPage() {
   const [secondsLeft, setSecondsLeft] = useState(15);
-  const telegramLink = "https://t.me/+fnxJ4ZWhkAZkZmNl"; // Replace with your real Telegram link
+  const telegramLink = "https://sara777matka.co/download"; // Replace with your real Telegram link
 
   useEffect(() => {
     if (secondsLeft === 0) {
@@ -29,22 +29,32 @@ export default function DeepakWadhwaPage() {
           />
         </div>
 
-        <h1 className="page-heading">👑PANKAJ BHARDWAJ OFFICIAL👑</h1>
+        <h1 className="page-heading">Sara777</h1>
 
         <a href={telegramLink} className="telegram-button">
-          JOIN NOW FREE TELEGRAM 🚀
+          ⬇️ Download Now
         </a>
 
         <div className="info-box">
           <p className="info-title">🔥100% Guaranteed Profit🔥</p>
           <p>
-            🚀 Daily 8 to 10 Quotex Signals<br />
-            💬 Full Support and Guidance<br />
-            💰 No Loss only profit 🏆
+            📈🟠 MINIMUM DEPOSIT - ₹300 <br/>
+            🎯🟠 MINIMUM WITHDRAWAL - ₹1000  <br/>
+            ✅Fast results update  <br/>
+            🔴All Market Games🎮 available  <br/>
+            🎰Safe & Secure Platform💯  <br/>
+             ☑ Automatically Deposit & Withdrawal <br/>
+            👇 <br/>
+           
+             
+            
           </p>
         </div>
 
-        <div className="try-button">TRY NOW FREE 🚀</div>
+        <a href={telegramLink} className="try-button">
+  TRY NOW FREE 🚀
+</a>
+
 
         <div className="offer-bar">
           Limited Time Offer 00:00:{secondsLeft.toString().padStart(2, "0")}
